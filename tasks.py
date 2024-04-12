@@ -17,7 +17,6 @@ def order_robots_from_RobotSpareBin():
     """
     browser.configure(
         browser_engine="firefox",
-        slowmo=100,
     )
     open_robot_order_website()
     download_csv_file()
